@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Raoudha Nouisser</title>
+        <meta charset="utf-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        
+        <!-- Bootstrap CSS -->
+         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+        <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Lobster">
+        <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Bitter">
+          <link rel="shortcut icon" href="https://avatars2.githubusercontent.com/u/14887782?s=460&v=4" />
+          <style>
+           
+              img{
+                  width:100%;
+              }
+              .contact{
+                 height: 10px;
+                  padding: 10px;
+                  background-color: white
+              }
+
+              .intro{
+                  
+                  
+                  height:130px;
+                  padding: 18px;
+                  background-color: #6495ED;
+                  margin-top:70px
+              }
+             span {
+                  
+                  font-family: 'Lobster';
+                  font-size: 21px;
+                  font-weight: 100
+                  
+              }
+
+              .mail a, .mail a:hover, .mail a:focus, .mail a:active{
+                 color: black;
+                  text-decoration: none;
+                  
+
+              }
+              .media_btn {
+                
+                border-radius: 50px;
+                background-color: #CC9933;
+                font-size:20px;
+                width:40px;
+                height: 40px;
+            }
+            
+           
+            .main{
+              
+                background-color: white
+            }
+            
+            @media(min-width:768px){
+                .main{
+                padding: 10px;
+                box-shadow: 1px 1px 1px #888888;
+                height:70px;
+                background-color: white;
+               
+
+            }
+            
+            }
+            
+           
+            .main  a{
+                display: block;
+                color: black;
+                font-size: 1.5em;
+                font-weight: 600;
+                text-transform: uppercase;
+                
+                font-family: 'Bitter';
+                
+                
+                
+                
+                
+            }
+            
+      
+            .a1{
+                border-right: solid 1px gray
+            }
+
+            .contenu{
+                margin-top: 50px;
+                width:80%;
+               margin-bottom: 50px
+            }
+          
+            .menu-profile a:active, .menu-profile a:hover {
+               
+                text-decoration: none;
+               
+
+            }
+            .menu-profile a:hover{
+                background-color:#F5F5DC;
+            }
+           
+           
+            .menu-profile a{
+                border: solid 1px rgb(96, 118, 151);
+                text-align: center;
+                font-size: 17px;
+                text-transform: uppercase;
+                font-family: 'Bitter';
+                color: rgb(96, 118, 151);
+                height: 40px;
+                font-weight: bold;
+                padding-top: 5px
+
+                
+                
+            
+                
+            }
+             .contenu h2{
+                color:#CC9933;
+                text-transform: uppercase;
+                padding-top: 30px;
+            }
+            #education, #experiences, #skills, #work{
+               margin-top: 20px;
+                padding: 20px;
+                box-shadow: 2px 2px 6px #888888;
+                border:solid 0.1 #888888
+                
+            }
+            #work img{
+                height: 220px;
+                margin: 10px;
+                border: 0.5px solid gray;
+                border-radius: 15px;
+                padding: 5px;
+            }
+            @media(max-width:768px){
+                .intro{
+                    height:190px;
+                    padding:5px;
+                }
+                .contenu{
+                   width:100%;
+                }
+              
+                
+
+               
+
+            }
+            .arrow{
+                position:fixed;
+                bottom: 25px;
+                right: 25px;
+                background-color: #6495ED;
+                z-index: 2;
+                width:50px;
+                height:50px;
+                border-radius: 50px;
+                
+          
+            }
+            
+           
+           
+
+             
+          </style>
+
+        </head>
+    <body id="top">
+       
+       <a class=" arrow btn btn-default" href="#top"><i class="fa fa-arrow-up fa-2x"></i></a>
+    
+            <nav id="mainNav" class="navbar main navbar-fixed-top ">
+                    <div class="container">
+                        <!-- Brand and toggle get grouped for better mobile display -->
+                        <div class="navbar-header">
+                           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                   <i class="fa fa-bars fa-2x"></i>
+                           </button>
+                           
+                        </div>
+
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="collapse navbar-collapse" >
+                            <ul class="nav navbar-nav">
+
+                                <li >
+                                     <a class="a1" href="#" onclick="onProfile()">profile</a>
+                                </li>
+                                <li >
+                                    <a class="a1" href="#" onclick="onWork()">work</a>
+                                </li>
+                                <li >
+                                    <a href="https://nouisserraoudha.github.io/certifications/store.html" target="_blank">Certifs</a>
+                                </li>
+                               
+                            </ul>
+                        </div>
+                        <!-- /.navbar-collapse -->
+                    </div>
+                    <!-- /.container-fluid -->
+                </nav>
+           <div class="intro">
+                   
+                <div >
+                     <div class="row">
+                            <div class="col-md-1 col-sm-1 xs-hidden"></div>
+                             <div class="col-md-1 col-sm-2 col-xs-2">
+                                <img src="https://avatars2.githubusercontent.com/u/14887782?s=460&v=4" height="80" width="80" style="border-radius:80px">
+                               
+                             </div>
+                             
+                             <div class="col-md-4 col-sm-4 col-xs-9">
+                                 <span>web developer</span><br/>
+                                 <span> graphic designer</span><br/>
+                                 <span>deep learning researcher</span>
+
+                             </div>
+                            
+                             
+                             <div class="col-md-5 col-sm-5 col-xs-12" style="text-align: right" > 
+                               
+                                    <div class="mail"><h4 style="font-family: 'Bitter'"><i class="fa fa-envelope fa-1x" style=" margin-right:2px"></i><a href="https://rawdhanouisser@gmail.com" >rawdhanouisser@gmail.com</a></h4> </div> 
+                                    <div >
+                                            <a class="btn btn-default media_btn" href="https://twitter.com/raoudhanouisser"><i class="fa fa-twitter "></i></a>
+                                            <a class="btn btn-default media_btn" href="https://www.facebook.com/rawdha.nouisser.1"><i class="fa fa-facebook "></i></a>
+                                            <a class="btn btn-default media_btn" href="https://tn.linkedin.com/in/raoudha-nouisser-671591109"><i class="fa fa-linkedin "></i></a>
+                                            <a class="btn btn-default media_btn" href="https://github.com/nouisserraoudha"><i class="fa fa-github-square "></i></a>
+                                    </div>
+                             </div>
+                         </div>
+                </div>
+         
+         </div>
+    <div class="container contenu " > 
+         <!-- 
+                ++++++++ PROFILE ++++++++
+                +++++++++++++++++++++++++
+            -->
+            <div id="profile">
+                    <div class="row menu-profile" style="margin-bottom:30px">
+                       <a class="col-md-4 col-sm-4 col-xs-12 " href="#education">Education</a>
+                       <a class="col-md-4 col-sm-4 col-xs-12" href="#experiences">Experiences</a>
+                       <a class="col-md-4 col-sm-4 col-xs-12" href="#skills">Skills</a>
+   
+                    </div>
+                    <div id="education">
+                           <h2 > <i class="fa fa-graduation-cap fa-1x"></i>  Education </h2>
+                             <table class="table" style="font-size: 20px; margin:20px">
+                                     <tr> 
+                                             <th scope="row">now</th>
+                                             <td> <strong> Master's degree in Computer Science  </strong><br/>
+                                                 Faculty of Sciences Sfax <br/>
+                                                 
+                                             </td>
+                                         </tr>
+                                 <tr> 
+                                     <th scope="row">2016</th>
+                                     <td> <strong> Licence Fondamentale en Sciences de l'informatique </strong><br/>
+                                        Institut of computer sciences and management Kairouan <br/>
+                                         
+                                     </td>
+                                 </tr>
+                                 <tr> 
+                                     <th scope="row">2013</th>
+                                     <td> <strong> Baccalauréat (Mathematic) </strong><br/>
+                                         Kairouan secondary school  <br/>
+                                        
+                                     </td>
+                                 </tr>
+                             </table>
+               </div>
+               <div id="experiences">
+                   <h2> <i class="fa fa-briefcase fa-1x"></i>  Internship experiences </h2>
+                             <table class="table" style="font-size: 20px; margin:20px">
+                                 <tr> 
+                                     <th scope="row">February 2016 <br/>To April 2016</th>
+                                     <td> <span style="color: #6495ED">Internship in Kairouan hospital </span><br/>
+                                         <ul>
+                                             <li>Developing a web-mobile software for the follow up of diabetics</li>
+                                             
+                                         </ul>
+                                     </td>
+                                 </tr>
+                                <tr> 
+                                     <th scope="row">August 2015</th>
+                                     <td> <span style="color: #6495ED">Internship in “ Info Logic “ software company   </span><br/>
+                                         Learn new thing according to developing software domain like :
+                                         <ul>
+                                             <li>Architecture client-server  </li>
+                                             <li>ERP </li>
+                                             <li>Deploy services </li>
+                                         </ul>
+                                     </td>
+                                 </tr>
+                                  <tr> 
+                                     <th scope="row">August 2014</th>
+                                     <td> <span style="color: #6495ED">Internship in Telecom society  </span><br/>
+                                         Discovering network domain<br/>
+                                         Participate in tasks like:
+                                         <ul>
+                                             <li>Installation new line phone </li>
+                                             <li>Elimination a line phone </li>
+                                             <li>Resolving a problem according to a line network  </li>
+                                         </ul>
+                                     </td>
+                                 </tr>
+                             </table>
+               </div>
+               <div id="skills">
+                           <h2 > <i class="fa fa-cogs fa-1x"></i>  Skills </h2>
+                             <table class="table" style="font-size: 20px; margin:20px">
+                                     <tr>
+                                             <td> <strong> deep learning developing:  </strong><br/>
+                                                 Kearas, Tensorflow 
+                                                 <div class="pull-right" style="color:gold; margin-right: 15px">
+                                                     <span class="glyphicon glyphicon-star"></span>
+                                                     <span class="glyphicon glyphicon-star"></span>
+                                                     <span class="glyphicon glyphicon-star"></span>
+                                                     <span class="glyphicon glyphicon-star-empty"></span>
+                                                     <span class="glyphicon glyphicon-star-empty"></span>
+                                                 </div>
+                                             </td>
+                                         </tr>
+                                 <tr> 
+                                    <td> <strong> Web developing :  </strong><br/>
+                                         HTML, CSS, JavaScript, Bootstrap 
+                                        <div class="pull-right" style="color:gold ; margin-right: 15px">
+                                             <span class="glyphicon glyphicon-star"></span>
+                                             <span class="glyphicon glyphicon-star"></span>
+                                             <span class="glyphicon glyphicon-star"></span>
+                                             <span class="glyphicon glyphicon-star"></span>
+                                             <span class="glyphicon glyphicon-star-empty"></span>
+                                         </div>
+                                        <br/>
+                                        PHP
+                                        <div class="pull-right" style="color: gold; margin-right: 15px">
+                                             <span class="glyphicon glyphicon-star"></span>
+                                             <span class="glyphicon glyphicon-star"></span>
+                                             <span class="glyphicon glyphicon-star"></span>
+                                             <span class="glyphicon glyphicon-star-empty"></span>
+                                             <span class="glyphicon glyphicon-star-empty"></span>
+                                         </div>
+                                     </td>
+                                 </tr>
+                                 
+                                 <tr>
+                                     <td> <strong> Desktop software developing:  </strong><br/>
+                                         JAVA 
+                                         <div class="pull-right" style="color: gold; margin-right: 15px">
+                                             <span class="glyphicon glyphicon-star"></span>
+                                             <span class="glyphicon glyphicon-star"></span>
+                                             <span class="glyphicon glyphicon-star"></span>
+                                             <span class="glyphicon glyphicon-star-empty"></span>
+                                             <span class="glyphicon glyphicon-star-empty"></span>
+                                         </div>
+                                     </td>
+                                 </tr>
+                                 <tr>
+                                     <td> <strong> Mobile software developing :  </strong><br/>
+                                         ANDROID
+                                         <div class="pull-right" style="color: gold; margin-right: 15px">
+                                             <span class="glyphicon glyphicon-star"></span>
+                                             <span class="glyphicon glyphicon-star"></span>
+                                             <span class="glyphicon glyphicon-star"></span>
+                                             <span class="glyphicon glyphicon-star"></span>
+                                             <span class="glyphicon glyphicon-star-empty"></span>
+                                         </div>
+                                         
+                                     </td>
+                                 </tr>
+                                 <tr>
+                                     <td> <strong> Graphic Design :  </strong><br/>
+                                         Photoshop, Illustrator
+                                         <div class="pull-right" style="color: gold; margin-right: 15px">
+                                             <span class="glyphicon glyphicon-star"></span>
+                                             <span class="glyphicon glyphicon-star"></span>
+                                             <span class="glyphicon glyphicon-star"></span>
+                                             <span class="glyphicon glyphicon-star"></span>
+                                             <span class="glyphicon glyphicon-star-empty"></span>
+                                         </div>
+                                         
+                                     </td>
+                                 </tr>
+                             </table>
+                       </div>
+   
+                </div>
+              <!-- 
+    +++++++ WORK ++++++
+    +++++++++++++++++++  -->
+    <div id="work">
+            <div class="row ">
+                              
+                           
+                            <div class="col-xs-6 col-sm-4 col-md-4"><img src="img1.jpg" /> </div> 
+                            <div class="col-xs-6 col-sm-4 col-md-4"><img src="img2.jpg" /></div>
+                            <div class="col-xs-6 col-sm-4 col-md-4"><img src="logo.png" /></div>
+                            <div class="col-xs-6 col-sm-4 col-md-4"><img src="logo3.png" /></div>
+                            <div class="col-xs-6 col-sm-4 col-md-4"><img src="img6.jpg" /></div>
+                            <div class="col-xs-6 col-sm-4 col-md-4"><img src="bestPrice2.png" /></div>
+                            
+                             <div class="col-xs-6 col-sm-4 col-md-4"><img src="img4.jpg" /></div>
+                            
+                           <div class="col-xs-6 col-sm-4 col-md-4"><img src="img7.jpg" /></div>
+                            <div class="col-xs-6 col-sm-4 col-md-4"><img src="coffeeChaud.jpg" /></div>
+                            <div class="col-xs-6 col-sm-4 col-md-4"><img src="Capturrt.JPG" /></div>
+                            <div class="col-xs-6 col-sm-4 col-md-4"><img src="img3.png" /></div>
+                            <div class="col-xs-6 col-sm-4 col-md-4"><img src="img5.jpg" /></div>
+                     
+                            
+            </div>
+        </div>       
+         </div>
+
+        
+         
+         <footer style="height:100px;background-color: #6495ED; padding:20px">
+            <div class="row text-center" >
+               
+                    <span> Kairouan, Tunisie</span>
+                 
+               
+            </div>
+
+         </footer>
+        
+
+           <!-- Jquery -->
+           <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+           <!-- Javascript de Bootstrap -->
+           <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+         <script>
+
+
+             var work = document.getElementById("work");
+             var profile = document.getElementById('profile');
+             work.style.display='none';
+            
+
+             onProfile = function(){
+                profile.style.display='block';
+                work.style.display='none';
+             }
+             onWork = function(){
+                profile.style.display='none';
+                work.style.display='block';
+             }
+           
+             
+             $(function(){
+                var x=document.querySelectorAll('.menu-profile > a');
+               x[0].style.color="black";
+               x[0].style.background="#CC9933";
+
+                $('#education').show();
+                
+               
+                $('#experiences').hide();
+                $('#skills').hide();
+               
+
+                $("a[href='#education']").click(function(){
+                    $('#education').show();
+                $('#experiences').hide();
+                $('#skills').hide();
+                for(var i=0; i<3; i++){
+                         if(i==0){
+                            x[i].style.color="black";
+                            x[i].style.background="#CC9933"; 
+                         }else{
+                           x[i].style.color="rgb(96, 118, 151)";
+                            x[i].style.background="white";   
+                         }
+                     }
+
+                });
+                $("a[href='#experiences']").click(function(){
+                    $('#experiences').show();
+                $('#education').hide();
+                $('#skills').hide();
+                for(var i=0; i<3; i++){
+                         if(i==1){
+                            x[i].style.color="black";
+                            x[i].style.background="#CC9933"; 
+                         }else{
+                           x[i].style.color="rgb(96, 118, 151)";
+                            x[i].style.background="white";   
+                         }
+                     }
+
+                });
+                $("a[href='#skills']").click(function(){
+                    $('#skills').show();
+                $('#experiences').hide();
+                $('#education').hide();
+                for(var i=0; i<3; i++){
+                         if(i==2){
+                            x[i].style.color="black";
+                            x[i].style.background="#CC9933"; 
+                         }else{
+                           x[i].style.color="rgb(96, 118, 151)";
+                            x[i].style.background="white";   
+                         }
+                     }
+
+
+                });
+                 
+          
+                 // Closes the Responsive Menu on Menu Item Click
+            $('.navbar-collapse ul li a').click(function(){ 
+                    $('.navbar-toggle:visible').click();
+            });
+            // Offset for Main Navigation
+            $('#mainNav').affix({
+                offset: {
+                    top: 100
+                }
+            });
+             });
+         </script>
+
+        
+    </body>
+
+</html>
